@@ -1,0 +1,32 @@
+p {
+	text-align: center;
+}
+#parrafo1{ 
+	color:orange;
+}
+#parrafoNormal{
+	font-style:italic;
+}
+#titulos{
+	background:blue;
+}
+#subtituloId{
+	font-style:italic;
+}
+/*los id son mas altos en jerarquia en comparacion con las clases*/
+.subtituloClase{
+	font-style:normal;
+}
+
+h3.center{
+	font:italic;
+	color:blue
+}
+#miEtiqueta{
+	color:green;
+}
+h1, h2, h3 , p{
+	background:#CCC;
+}
+/*cuando se tienen varias clases declaradas en una misma etiqueta, prevalece la que este declarada mas abajo*/
+
